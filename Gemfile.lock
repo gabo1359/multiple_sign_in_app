@@ -79,6 +79,8 @@ GEM
     bindex (0.8.1)
     bootsnap (1.18.4)
       msgpack (~> 1.2)
+    boring_generators (0.14.0)
+      railties
     brakeman (6.2.1)
       racc
     builder (3.3.0)
@@ -301,6 +303,7 @@ PLATFORMS
 
 DEPENDENCIES
   bootsnap
+  boring_generators
   brakeman
   capybara
   debug
